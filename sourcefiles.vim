@@ -1,9 +1,19 @@
+set rtp+=~\AppData\Local\nvim\vimconfig\
+
+" required for windows:
+filetype off
+set shellslash
+set rtp+=~/vimfiles/bundle/Vundle.vim
+call vundle#begin('~/vimfiles/bundle')
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
 " Plugins laden
-source /usr/etc/vim/vim.config.vim
-source /usr/etc/vim/plugins.d/plugins.source
-source /usr/etc/vim/functions.vim
-source /usr/etc/vim/design.vim
-source /usr/etc/vim/language.vim
-source /usr/etc/vim/abbreviations.vim
-source /usr/etc/vim/keybindings.vim
-source /usr/etc/vim/keybindings.copypaste.vim
+source ~\appData\local\nvim\vimconfig\vim.config.vim
+"source ~\appdata\local\nvim\vimconfig\plugins.d\plugins.source
+"source functions.vim
+"source design.vim
+"source language.vim
+"source abbreviations.vim
+"source keybindings.vim
+"source keybindings.copypaste.vim

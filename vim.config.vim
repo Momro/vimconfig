@@ -1,7 +1,7 @@
 " -----------------------
 " #######################
 " Original .vimrc ab hier
-colo achim
+colorscheme achim
 syntax on
 let python_highlight_all=1 " weiß auch nicht so genau, was das macht; vielleicht überflüssige Leerzeichen anzeigen "
 filetype indent plugin on
