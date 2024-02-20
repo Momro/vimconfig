@@ -1,0 +1,21 @@
+" inoremap <C-space> <C-]>"
+iabbrev syss \syss{}
+iabbrev desKunden \desKunden{}
+iabbrev demKunden \demKunden{}
+iabbrev derKunde \derKunde{}
+iabbrev kk \kk{}
+iabbrev tqa \sytodo[techqa]{}<left>
+"iabbrev todo \sytodo[author]{}<left>"
+iabbrev enquote \enquote{}<left>
+iabbrev footnote \footnote{}<left>
+iabbrev fold %{<Del>
+iabbrev foldend %}<Return>
+iabbrev url \url{}<left>
+iabbrev texttt \texttt{}<left>
+iabbrev section \section{}<left>
+" abbreviations for common typos:"
+iabbrev backend back end
+iabbrev frontend front end
+iabbrev teh the
+iabbrev seperate separate
+iabbrev aa % Anmerkung \sycensor{APf}:

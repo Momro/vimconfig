@@ -1,0 +1,15 @@
+" Plugins runterladen
+source /usr/etc/vim/plugins.d/plugins.vim
+
+" Configs der einzelnen Plugins
+source /usr/etc/vim/plugins.d/autosave.config
+source /usr/etc/vim/plugins.d/airline.config
+source /usr/etc/vim/plugins.d/fzf.config
+source /usr/etc/vim/plugins.d/jedi-vim.config
+source /usr/etc/vim/plugins.d/limelight.config
+source /usr/etc/vim/plugins.d/nerdtreetoggle.config
+source /usr/etc/vim/plugins.d/surround.vim
+source /usr/etc/vim/plugins.d/ultisnips.config
+source /usr/etc/vim/plugins.d/voom.config
+source /usr/etc/vim/plugins.d/youcompleteme.config
+source /usr/etc/vim/plugins.d/syntastic.config
