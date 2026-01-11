@@ -34,8 +34,6 @@ Plugin 'raimondi/delimitmate'
 Plugin 'https://github.com/tpope/vim-dispatch'
 Plugin 'https://github.com/tpope/vim-fugitive'
 Plugin 'https://github.com/chrisbra/vim-autosave'
-Plugin 'matze/vim-tex-fold'
-Bundle 'matze/vim-tex.fold'
 Plugin 'https://github.com/junegunn/limelight.vim'
 
 

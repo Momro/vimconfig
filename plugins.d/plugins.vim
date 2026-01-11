@@ -1,10 +1,3 @@
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-
 " First, get Plugin manager
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -46,7 +39,7 @@ Plugin 'scrooloose/nerdtree'
 " <leader>c<space>: Kommentar toggle
 Plugin 'scrooloose/nerdcommenter'
 " ##	Python function expander 
-Plugin 'ColinKennedy/vim-python-function-expander'
+"Plugin 'ColinKennedy/vim-python-function-expander'
 " ##	Snippets
 Plugin 'honza/vim-snippets'
 " ##	Sparkup -> HTML expansion
@@ -58,19 +51,12 @@ Plugin 'vim-syntastic/syntastic'
 " ##	Tabular -> großartig um Tabellen auszurichten; leader+at in visual
 " mode
 Plugin 'godlygeek/tabular'
-" Advanced TeX fold 
-Plugin 'matze/vim-tex-fold'
-Bundle 'matze/vim-tex-fold-apfister'
 " ##	UltiSnips
-Plugin 'sirver/ultisnips'
+"Plugin 'sirver/ultisnips'
 " ##	Voom
 Plugin 'https://github.com/vim-voom/VOoM'
-" YouCompleteMe "
-Plugin 'valloric/youcompleteme' 
-
-
-
-
+" YouCompleteMe -> requires Vim with Python 3.12"
+"Plugin 'valloric/youcompleteme' 
 
 
 " #2 Marker to add plugins
@@ -88,5 +74,4 @@ Plugin 'valloric/youcompleteme'
 " Plugin 'kien/ctrlp.vim'
 " Plugin 'tpope/vim-fugitive'
 
-call vundle#end()            " required
 filetype plugin indent on    " required

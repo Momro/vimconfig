@@ -51,9 +51,9 @@ set hlsearch
 
 " Maintain undo history
 set undofile
-set undodir=~/.vim/undodir
+"set undodir=~/.vim/undodir
 
-set directory=~/.vim/swapfiles//
+"set directory=~/.vim/swapfiles//
 
 let g:tex_fold_enabled=1
 
