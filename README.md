@@ -8,6 +8,13 @@ Source `sourcefiles.vim` in ./appdata/local/nvim/init.vim
 
 ### Vundle for Windows
 
+```
+cd ~/appdata/local/nvim
+mkdir bundle
+cd bundle
+git clone https://github.com/VundleVim/Vundle.vim.git
+```
+
 ### Vundle for Linux
 
 # Contains
