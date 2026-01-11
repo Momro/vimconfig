@@ -36,7 +36,7 @@ nnoremap <leader>T :-tabmove<cr>
 
 " ##	Execute Commands
 " make report
-nnoremap <leader>r :Start! report-handler -r -t 1<CR>
+nnoremap <leader>r :Start! cmd<CR>
 
 " Quick save / leave
 nnoremap <leader>q :q<CR>

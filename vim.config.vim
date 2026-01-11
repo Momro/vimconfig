@@ -45,13 +45,3 @@ let g:tex_fold_enabled=1
 
 " vim diff in read/write
 set noro
-
-" auto set filetype to tex when editing *.tex file"
-set filetype=all
-autocmd VimEnter *.tex set filetype=tex
-autocmd VimEnter *.tex setfiletype tex
-autocmd TabEnter *.tex setfiletype tex
-" ##	Zeilenumbruch nach 120 Zeichen
-"autocmd VimEnter *.tex set tw=120
-"autocmd TabEnter *.tex set tw=120
-"autocmd BufNewFile,BufRead *.tex setfiletype tex
