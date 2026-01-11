@@ -1,8 +1,21 @@
 " -----------------------
 " #######################
 " Original .vimrc ab hier
-set runtimepath+=~/AppData/Local/nvim/vimconfig/colors
-colorscheme momro
+
+if has('win32') || has('win64')
+    " Windows-spezifisch
+    "colorscheme blue
+	set runtimepath+=~/AppData/Local/nvim/vimconfig/colors
+	colorscheme momro
+elseif has('unix')
+    " Linux/Mac
+    colorscheme desert
+else
+    " Fallback
+    colorscheme default
+endif
+
+
 syntax on
 let python_highlight_all=1 " weiß auch nicht so genau, was das macht; vielleicht überflüssige Leerzeichen anzeigen "
 filetype indent plugin on
