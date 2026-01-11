@@ -1,7 +1,8 @@
 " -----------------------
 " #######################
 " Original .vimrc ab hier
-colorscheme achim
+set runtimepath+=~/AppData/Local/nvim/vimconfig/colors
+colorscheme momro
 syntax on
 let python_highlight_all=1 " weiß auch nicht so genau, was das macht; vielleicht überflüssige Leerzeichen anzeigen "
 filetype indent plugin on

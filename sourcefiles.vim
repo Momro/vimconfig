@@ -1,4 +1,4 @@
-set rtp+=~\AppData\Local\nvim\vimconfig\
+set rtp+=~/AppData/Local/nvim/vimconfig/
 
 " required for windows:
 filetype off
@@ -9,7 +9,7 @@ call vundle#begin('~/vimfiles/bundle')
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugins laden
-source ~\appData\local\nvim\vimconfig\vim.config.vim
+source ~/appData/local/nvim/vimconfig/vim.config.vim
 "source ~\appdata\local\nvim\vimconfig\plugins.d\plugins.source
 "source functions.vim
 "source design.vim
