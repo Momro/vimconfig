@@ -25,12 +25,14 @@ If no:
 PSH > [Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\Local\Programs\Git\bin", "User")
 ```
 
-
 ### Vundle for Linux
 
 # Contains
 
 ## Movement
+
+- gt / gT: forward/backward in Tabs
+- C-h C-l: hop into NERDTree and back
 
 ## Design
 
