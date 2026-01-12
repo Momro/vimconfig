@@ -15,6 +15,17 @@ cd bundle
 git clone https://github.com/VundleVim/Vundle.vim.git
 ```
 
+check if Git is in PATH:
+```
+PSH > [Environment]::GetEnvironmentVariable("PATH") -split ';' | sort | select-string 'git'
+```
+
+If no:
+```
+PSH > [Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\Local\Programs\Git\bin", "User")
+```
+
+
 ### Vundle for Linux
 
 # Contains
@@ -49,6 +60,20 @@ git clone https://github.com/VundleVim/Vundle.vim.git
 - vim-snippets
 - ultisnips
 - youcompleteme
+
+#### help
+
+- fzf
+
+```
+cd ~/appdata/local/programs/
+git clone https://github.com/junegunn/fzf
+cd fzf
+.\install.ps1
+[Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\Local\Programs\fzf\bin", "User")
+```
+
+Start fzf with <leader>f <type file>
 
 ### programming plugins
 
