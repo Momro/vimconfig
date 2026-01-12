@@ -63,8 +63,6 @@ tnoremap <C-g> <C-\><C-n>
 " ##	FZF 
 " für aktuellen Ordner:
 nnoremap <leader>f :Files <CR> 
-" FZF für forst:
-nnoremap <C-f> :Files /home/pfister/texmf/tex/latex/forst/<CR> 
 
 " ##	Jedi
 "let g:jedi#completions_command = "<C-N>"

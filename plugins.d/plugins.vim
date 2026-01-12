@@ -1,3 +1,23 @@
+if has('win32') || has('win64')
+    " Windows-spezifisch
+	let bundle_root = expand('~/AppData/Local/nvim/bundle')
+	let vundle_dir  = bundle_root . '/Vundle.vim'
+	set rtp+=~/AppData/Local/nvim/bundle
+	set rtp+=~/AppData/Local/nvim/bundle/Vundle.vim
+				
+	call vundle#begin(bundle_root)	
+elseif has('unix')
+    " Linux/Mac
+	set rtp+=~/.vim/vimconfig/bundle/Vundle.vim
+	let bundle_root = expand('~/.vim/vimconfig/bundle')
+
+	call vundle#begin(bundle_root)
+else
+    " Fallback
+endif
+
+
+
 " First, get Plugin manager
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -25,15 +45,16 @@ Plugin 'raimondi/delimitmate'
 " vim-dispatch kann Dinge im Hintergrund laufen lassen 
 " -> z.B. :Start! report-handler -m
 Plugin 'https://github.com/tpope/vim-dispatch'
-" ## 	Fuzzy Find in Vim
-"Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" ## 	Fuzzy Find in Vim; you need both plugins
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 " ##	Jedi-Vim Autocomplete / Help for Python
 Plugin 'davidhalter/jedi-vim'
 " ## 	Limelight -> highlight/de-light paragraphs
 Plugin 'https://github.com/junegunn/limelight.vim'
 " ##	NerdTree
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree' -> does not work anymore
+Plugin 'preservim/nerdtree'
 " ##	NerdCommenter
 " <leader>cc: Kommentar (z.B. % in LaTeX)
 " <leader>c<space>: Kommentar toggle
@@ -75,3 +96,6 @@ Plugin 'https://github.com/vim-voom/VOoM'
 " Plugin 'tpope/vim-fugitive'
 
 filetype plugin indent on    " required
+
+" end vundle installer
+call vundle#end()	
