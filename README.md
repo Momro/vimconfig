@@ -95,3 +95,4 @@ Start fzf with `<leader>f <type file>`
 - syntastic
 - tabular
 - VOoM
+
