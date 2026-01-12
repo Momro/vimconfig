@@ -73,7 +73,7 @@ cd fzf
 [Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\Local\Programs\fzf\bin", "User")
 ```
 
-Start fzf with <leader>f <type file>
+Start fzf with `<leader>f <type file>`
 
 ### programming plugins
 
