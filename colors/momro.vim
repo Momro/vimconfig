@@ -16,6 +16,7 @@ let colors_name = "momro"
 hi Normal 		cterm=NONE		ctermfg=2			ctermbg=0  		guifg=#27F52A guibg=#000000
 
 
+
 " Syntax highlighting (other color-groups using default, see :help group-name):
 "hi Comment    	cterm=NONE	ctermfg=DarkGreen    	gui=NONE	guifg=#00aaaa   	 
 hi Comment    	cterm=NONE		ctermfg=Brown    					gui=NONE			guifg=#00aaaa   	 

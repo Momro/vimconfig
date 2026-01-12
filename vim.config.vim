@@ -9,10 +9,10 @@ if has('win32') || has('win64')
 	colorscheme momro
 elseif has('unix')
     " Linux/Mac
-    colorscheme desert
+	colorscheme momro
 else
     " Fallback
-    colorscheme default
+    colorscheme Benokai
 endif
 
 
