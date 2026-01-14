@@ -15,6 +15,10 @@ cd bundle
 git clone https://github.com/VundleVim/Vundle.vim.git
 ```
 
+Install git:
+
+https://git-scm.com/install/windows
+
 check if Git is in PATH:
 ```
 PSH > [Environment]::GetEnvironmentVariable("PATH") -split ';' | sort | select-string 'git'
