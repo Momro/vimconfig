@@ -7,6 +7,8 @@
 
 Source `sourcefiles.vim` in ./appdata/local/nvim/init.vim
 
+See also `:echo stdpath('config')`
+
 ### Vundle for Windows
 
 ```
