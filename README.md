@@ -32,6 +32,8 @@ If no:
 PSH > [Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\Local\Programs\Git\bin", "User")
 ```
 
+open vim, `:PLuginInstall` -> restart vim
+
 ### Vundle for Linux
 
 # Contains
