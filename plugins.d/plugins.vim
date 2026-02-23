@@ -1,15 +1,7 @@
 if has('win32') || has('win64')
     " Windows-spezifisch
-	let bundle_root = expand('~/AppData/Local/nvim/bundle')
-	let vundle_dir  = bundle_root . '/Vundle.vim'
-	set rtp+=~/AppData/Local/nvim/bundle
 	set rtp+=~/AppData/Local/nvim/bundle/Vundle.vim
-				
-	if exists('*vundle#begin*')
-		call vundle#begin(bundle_root)
-	else
-		finish
-	endif 
+	call vundle#begin('~/AppData/Local/nvim/bundle')
 elseif has('unix')
     " Linux/Mac
 	set rtp+=~/.vim/bundle/Vundle.vim
@@ -21,8 +13,6 @@ else
     " Fallback
 	finish
 endif
-
-
 
 " First, get Plugin manager
 " let Vundle manage Vundle, required
