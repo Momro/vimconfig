@@ -3,7 +3,7 @@ if has('win32') || has('win64')
     set nocompatible
 	filetype off
     " load plugins
-	source ~/appdata/local/nvim/vimconfig/plugins.d/plugins.new.vim
+	source ~/appdata/local/nvim/vimconfig/plugins.d/plugins.vim
 
 	set rtp+=~/AppData/Local/nvim/vimconfig/
 	set shellslash	
