@@ -44,7 +44,7 @@ nnoremap <leader>w :w<CR>
 
 
 " Damit kann man Code 1:1 einfügen
-set pastetoggle=<F2>
+"set pastetoggle=<F2>
 
 " Sitzung speichern und wiederherstellen
 map <F3> :mksession! ~/.vim/sessions/session1 <cr> " Quick write session with F3
