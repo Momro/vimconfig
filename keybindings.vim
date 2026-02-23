@@ -42,9 +42,12 @@ nnoremap <leader>r :Start! cmd<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
 
-
 " Damit kann man Code 1:1 einfügen
 "set pastetoggle=<F2>
+nnoremap <silent> <F2> :set invpaste paste?<CR>
+inoremap <silent> <F2> <C-O>:set invpaste paste?<CR>
+set showmode
+set shortmess-=S     " zeigt INSERT (paste)
 
 " Sitzung speichern und wiederherstellen
 map <F3> :mksession! ~/.vim/sessions/session1 <cr> " Quick write session with F3
