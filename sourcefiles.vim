@@ -1,11 +1,13 @@
 if has('win32') || has('win64')
     " Windows-spezifisch
-	set rtp+=~/AppData/Local/nvim/vimconfig/
+    set nocompatible
 	filetype off
-	set shellslash
-	source ~/appData/local/nvim/vimconfig/vim.config.vim
-	
-	source ~/appdata/local/nvim/vimconfig/plugins.d/plugins.vim
+    " load plugins
+	source ~/appdata/local/nvim/vimconfig/plugins.d/plugins.new.vim
+
+	set rtp+=~/AppData/Local/nvim/vimconfig/
+	set shellslash	
+    source ~/appData/local/nvim/vimconfig/vim.config.vim
 	"source functions.vim
 	"source design.vim
 	"source language.vim
