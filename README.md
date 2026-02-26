@@ -1,6 +1,6 @@
 # Windows
+
 - https://dev.to/hoo12f/setting-up-neovim-with-windows-powershell-2208
-- Vundle for Windows: https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows
 - get nvim: https://neovim.io/
 
 ## install
@@ -9,7 +9,7 @@ Source `sourcefiles.vim` in ./appdata/local/nvim/init.vim
 
 See also `:echo stdpath('config')`
 
-### Vundle for Windows
+## Vundle for Windows
 
 ```
 cd ~/appdata/local/nvim
@@ -34,7 +34,27 @@ PSH > [Environment]::SetEnvironmentVariable("PATH", $env:PATH + ";$HOME\AppData\
 
 open vim, `:PLuginInstall` -> restart vim
 
-### Vundle for Linux
+# Linux
+
+```
+# install nvim
+sudo apt install nvim -y
+# download config
+git clone https://github.com/Momro/vimconfig ~/vimconfig
+# create nvim config folder
+mkdir ~/.config/nvim
+
+# link custom config in nvim folder
+ln -s ~/vimconfig/sourcefiles.vim ~/.config/nvim/init.vim
+ln -s ~/vimconfig/colors ~/.config/nvim/colors
+
+# get vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/vimconfig/bundle/Vundle.vim 
+
+# enter vim and install plugins
+vim
+:PluginInstall
+``` 
 
 # Contains
 
