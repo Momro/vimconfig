@@ -4,8 +4,8 @@ if has('win32') || has('win64')
 	call vundle#begin('~/AppData/Local/nvim/bundle')
 elseif has('unix')
     " Linux/Mac
-	set rtp+=~/.vim/bundle/Vundle.vim
-	set rtp+=~/.vim/bundle
+	set rtp+=~/vimconfig/bundle/Vundle.vim
+	set rtp+=~/vimconfg/bundle
 	let bundle_root = expand('~/.vim/bundle')
 
 	call vundle#begin(bundle_root)
