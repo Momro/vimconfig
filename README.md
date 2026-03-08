@@ -125,3 +125,21 @@ Start fzf with `<leader>f <type file>`
 - tabular
 - VOoM
 
+# YouCompleteMe
+
+``` 
+cd ~/vimconfig/bundle/
+apt install -y cmake
+apt install -y python3-dev
+apt-get install build-essential
+apt install -y pip
+
+
+git clone https://github.com/ycm-core/YouCompleteMe
+git submodule update --init --recursive
+```
+
+
+
+# oder coc.nvim
+https://github.com/neoclide/coc.nvim
