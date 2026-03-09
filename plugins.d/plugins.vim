@@ -6,7 +6,7 @@ elseif has('unix')
     " Linux/Mac
 	set rtp+=~/vimconfig/bundle/Vundle.vim
 	set rtp+=~/vimconfg/bundle
-	let bundle_root = expand('~/.vim/bundle')
+	let bundle_root = expand('~/vimconfg/bundle')
 
 	call vundle#begin(bundle_root)
 else
@@ -74,6 +74,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'https://github.com/vim-voom/VOoM'
 " YouCompleteMe -> requires Vim with Python 3.12"
 "Plugin 'valloric/youcompleteme' 
+Plugin 'ycm-core/YouCompleteMe' 
 
 
 " #2 Marker to add plugins
