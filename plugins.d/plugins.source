@@ -1,1 +1,2 @@
-" Plugins runterladen
+source ~/vimconfig/plugins.d/nerdtreetoggle.config
+source ~/vimconfig/plugins.d/youcompleteme.config
