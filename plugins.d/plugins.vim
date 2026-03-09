@@ -5,8 +5,8 @@ if has('win32') || has('win64')
 elseif has('unix')
     " Linux/Mac
 	set rtp+=~/vimconfig/bundle/Vundle.vim
-	set rtp+=~/vimconfg/bundle
-	let bundle_root = expand('~/vimconfg/bundle')
+	set rtp+=~/vimconfig/bundle
+	let bundle_root = expand('~/vimconfig/bundle')
 
 	call vundle#begin(bundle_root)
 else
