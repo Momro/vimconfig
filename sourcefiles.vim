@@ -21,6 +21,7 @@ elseif has('unix')
 	
 	" let Vundle manage Vundle, required
 	source ~/vimconfig/plugins.d/plugins.vim
+	source ~/vimconfig/plugins.d/plugins.source
 
 	"source functions.vim
 	"source design.vim
