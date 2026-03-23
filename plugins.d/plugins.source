@@ -1,2 +1,2 @@
-source ~/vimconfig/plugins.d/nerdtreetoggle.config
-source ~/vimconfig/plugins.d/youcompleteme.config
+source ~/.vim/vimconfig/plugins.d/nerdtreetoggle.config
+source ~/.vim/vimconfig/plugins.d/youcompleteme.config
